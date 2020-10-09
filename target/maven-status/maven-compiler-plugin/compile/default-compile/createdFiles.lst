@@ -1,0 +1,7 @@
+com/eduit/laboratorio/java/web/manager/bean/AlumnoManagedBean.class
+com/eduit/laboratorio/java/web/repositories/AlumnoRepository.class
+com/eduit/laboratorio/java/web/manager/bean/HolaBean.class
+com/eduit/laboratorio/java/web/test/testRepository.class
+com/eduit/laboratorio/java/web/connectors/ConnectorJDBC.class
+com/eduit/laboratorio/java/web/entities/Alumno.class
+com/eduit/laboratorio/java/web/manager/bean/PersonaBean.class
