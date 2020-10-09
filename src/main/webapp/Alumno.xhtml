@@ -12,7 +12,7 @@
         <h:form id="alta">
             <h:panelGrid columns="2">
                 <p:outputLabel value="Nombre"/>
-                <p:inputText value="#{alumnoMB.alumno.nombre}"/>
+                <p:inputText value="#{holaBean.nombre}"/>
                 <p:outputLabel value="Apellido"/>
                 <p:inputText value="#{alumnoMB.alumno.apellido}"/>
                 <p:outputLabel value="Correo"/>
@@ -21,8 +21,9 @@
                 <p:inputText value="#{alumnoMB.alumno.password}"/>
                 <p:outputLabel value="Numero de Alumno"/>
                 <p:inputText value="#{alumnoMB.alumno.numeroAlumno}"/>
-                <p:commandButton value="Agregar" action="#{alumnoMB.save()}"
-                                 style="margin-right:20px;" ajax="false" />
+                <p:commandButton value="Ajax Submit" id="ajax" 
+                                 update="growl" action="welcome" 
+                                 style="margin-right:20px;" styleClass="ui-priority-primary" />
                 <p:outputLabel value="#{clienteMB.mensaje}"/>
             </h:panelGrid>
             <p:growl id="growl" showDetail="true" sticky="true" />
